@@ -1,4 +1,80 @@
 
+.parent {
+ height: 700px;
+ display: flex;
+ align-items: center;
+}
+
+.traffic-light {
+ border: 5px;
+ border-style: solid;
+ border-radius: 5%;
+ height: 350px;
+ width: 150px;
+ margin: 90px auto;
+ background-color: black;
+ justify-content: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+
+.light {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-bottom:5px;
+    border: 2px;
+}
+
+
+.on-red{
+    box-shadow: -2px -2px 53px 35px rgba(214,46,46,0.61);
+-webkit-box-shadow: -2px -2px 53px 35px rgba(214,46,46,0.61);
+-moz-box-shadow: -2px -2px 53px 35px rgba(214,46,46,0.61);
+}
+.on-yellow{
+    box-shadow: -2px -2px 53px 35px rgba(214,208,46,0.61);
+    -webkit-box-shadow: -2px -2px 53px 35px rgba(214,208,46,0.61);
+    -moz-box-shadow: -2px -2px 53px 35px rgba(214,208,46,0.61);
+}
+.on-green{
+    box-shadow: -2px -2px 53px 35px rgba(26,158,39,0.61);
+    -webkit-box-shadow: -2px -2px 53px 35px rgba(26,158,39,0.61);
+    -moz-box-shadow: -2px -2px 53px 35px rgba(26,158,39,0.61);
+}
+
+.red {
+    background-color: red;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.yellow { 
+    background-color: yellow;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.green {
+    background-color: green;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/*.bar{
+    width: 30px;
+    height: 120px;
+    background-color: black;
+    margin-left: 663px;
+    border: 5px solid black;
+    position: relative;
+    margin-top: -100px;
+
+    <div className="bar"><p>1</p></div>this on home.jsx
+}*/
 /* 
 
     You can write your own styles here...
@@ -10,3 +86,5 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+
